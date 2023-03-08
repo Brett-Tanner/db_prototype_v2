@@ -353,6 +353,7 @@ DEPENDENCIES
   image_processing (~> 1.2)
   importmap-rails
   jbuilder
+  mail (~> 2.8)
   paper_trail
   pg (~> 1.1)
   puma (< 7)
