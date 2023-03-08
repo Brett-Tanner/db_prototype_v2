@@ -24,7 +24,8 @@
 /tmp/storage/*
 !/tmp/storage/
 !/tmp/storage/.keep
-/public/assets  
+/public/assets
+/app/assets/images/*
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
@@ -32,7 +33,5 @@
 # Ignore ds store
 .DS_Store
 
-# Elastic Beanstalk Files
-.elasticbeanstalk/*
-!.elasticbeanstalk/*.cfg.yml
-!.elasticbeanstalk/*.global.yml
+# Ignore unnecessary AWS stuff
+.elasticbeanstalk/config.yml
